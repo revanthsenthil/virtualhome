@@ -177,6 +177,8 @@ class UnityLauncher(object):
                 else:
                     f = subprocess.DEVNULL
                 try:
+                    if not env:
+                        env = None
                     self.proc = subprocess.Popen(
                         subprocess_args,
                         env=env,
