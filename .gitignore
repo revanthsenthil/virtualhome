@@ -167,6 +167,9 @@ fabric.properties
 
 # Project-specific stuff
 test*/
+
+Output/
+
 test*.py
 data/*
 .vscode/
